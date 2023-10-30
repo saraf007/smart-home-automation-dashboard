@@ -9,12 +9,12 @@ import { NavigationComponent } from './app-navigation/navigation/navigation.comp
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NavigationComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
